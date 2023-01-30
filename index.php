@@ -1,4 +1,10 @@
 <?php
-$num = "12345";
-$bool=($num[0]==1||$num[0]==2||$num[0]==3)?"да":"нет";
-echo $bool;
+$arr = [$arr = ['green'=>'зеленый', 'red'=>'красный', 'blue'=>'голубой'];
+
+foreach($arr as $key => $val){
+	$en[] = $key;
+	$ru[] = $val;
+}
+echo "<pre>";
+print_r($en);
+print_r($ru);
